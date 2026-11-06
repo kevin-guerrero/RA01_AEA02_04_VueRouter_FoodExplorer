@@ -16,13 +16,11 @@ const router = createRouter({
         path: "/receptes",
         name: "receptes",
         component: Receptes,
-        children: [
-            {
-                path:":id",
-                name: "recepte-detail",
-                component: RecepteDetail
-            }
-        ]
+    },
+    {
+        path: "/receptes/:id",
+        name: "recepte-detail",
+        component: RecepteDetail
     },
     {
         path: "/:pathMatch(.*)*",
