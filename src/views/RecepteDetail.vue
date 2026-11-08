@@ -1,6 +1,7 @@
 <script setup>
     import { useRoute } from 'vue-router';
     import { recipes } from '../data/recetas';
+    import NotFound from './NotFound.vue';
 
     const route = useRoute();
     const comidaId = parseInt(route.params.id)
@@ -16,4 +17,5 @@
         <h1>{{ recipe.name }}</h1>
         <p> {{ recipe.description }} </p>
     </article>
+    <NotFound v-else></NotFound>
 </template>
