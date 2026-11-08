@@ -3,7 +3,7 @@ export const recipes = [
         id: 1,
         name: 'Arroz con pechuga de pollo y brocoli',
         description: 'Arroz integral y pechuga de pollo magra',
-        img: 'src/assets/comida1.jpeg'
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS760MLpF13xKEv_Np5WTnKCd2gDoWl2kw8KdtIwWQ6eQ&s=10'
     },
     {
         id: 2,
